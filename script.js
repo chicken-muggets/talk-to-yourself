@@ -1,6 +1,6 @@
 talked = 0
 w = "Type your first message"
-start() {
+function start() {
     while true {
         w= prompt(w,"respond");
         talked ++
